@@ -1,4 +1,4 @@
-
+<script>
     // Dark Mode Toggle Functionality
     const darkModeToggle = document.getElementById('darkModeToggle');
     const icon = darkModeToggle.querySelector('i');
@@ -23,8 +23,8 @@
             icon.classList.add('fa-sun');
         }
     });
-
-
+</script>
+<script>
 var akundemo = "{{email_user}}";
 var currentUserEmail = "ngorokuliner@gmail.com";
 var demoMenuItems = document.querySelectorAll('.demo-menu');
@@ -37,8 +37,8 @@ demoMenuItems.forEach(function(item) {
 item.classList.remove('hidden');
 });
 }
-
-
+</script>
+<script>
 var iconButton = document.getElementById('iconButton');
 var iconImg = document.getElementById('iconImg');
 var originalSrc = "https://d.top4top.io/p_3218o2h4y0.png";
@@ -50,9 +50,9 @@ iconImg.src = newSrc;
 iconImg.src = originalSrc;
 }
 });
-
-
-
+</script>
+</script>
+<script>
 function rubah(angka) {
 var reverse = angka.toString().split('').reverse().join(''),
 ribuan = reverse.match(/\d{1,3}/g);
@@ -69,10 +69,10 @@ var icon2 = document.getElementById('icon2');
 icon1.classList.toggle('hidden');
 icon2.classList.toggle('hidden');
 }
-
+</script>
 <!-- my script -->
 
-
+<script>
 $(document).ready(function () {
 var swiper = new Swiper('.swiper-container', {
 slidesPerView: 1.1,
@@ -99,7 +99,7 @@ return "Rp " + ribuan;
 }
 saldo.text(changeSaldo(saldo.text()));
 });
-
+</script>
 <div id='pergeseran'></div>
 <div id="saldo_didin"></div>
 <!-- JANGAN UBAH APAPUN BAGIAN INI AGAR TIDAK ERROR -->
@@ -113,8 +113,8 @@ ribuan = ribuan.join('.').split('').reverse().join('');
 return "Rp " + ribuan;
 }
 document.getElementById("saldo_didin").innerText = rubah(document.getElementById("saldo_didin").textContent)
-
-
+</script>
+<script>
 function cekMembership(link) {
 var memUser = '{{nama_membership}}'
 var memBoleh = [
@@ -127,8 +127,8 @@ myModal.show()
 window.location.href = link
 }
 }
-
-
+</script>
+<script>
 //fungsi saat payment di jalankan
 $("#payment").click(() => {
 $("#payment").addClass("active").removeClass("nactive")
@@ -140,8 +140,8 @@ $("#history").click(() => {
 $("#history").addClass("active").removeClass("nactive")
 $("#payment").addClass("nactive").removeClass("active")
 })
-
-    
+</script>
+    <script>
         // Tab functionality
         document.addEventListener('DOMContentLoaded', function() {
             const tabLinks = document.querySelectorAll('.tablinks');
@@ -228,8 +228,8 @@ $("#payment").addClass("nactive").removeClass("active")
                 progressContent.textContent = `${Math.ceil(time / 1000)}s`;
             });
         }
-    
-
+    </script>
+<script>
 $(document).ready(function() {
   $('.nav-grid-items-codingasik').click(function() {
     $('.grid-item-active').removeClass('active');
@@ -248,8 +248,8 @@ $(document).ready(function() {
     }, 500);
   });
 });
-
-
+</script>
+<script>
 let currentIndex = 0;
 
 function openCity(tabName, tabContentId, animationType) {
@@ -290,3 +290,4 @@ function openCity(tabName, tabContentId, animationType) {
   
   tabcontent.addEventListener('animationend', removeAnimation);
 }
+</script>
